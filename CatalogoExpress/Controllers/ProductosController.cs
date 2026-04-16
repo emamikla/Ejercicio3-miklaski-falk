@@ -10,7 +10,9 @@ public class ProductosController : Controller
         //TODO 1:
         // - Crear un Catalogo
         // - Obtener la lista de Productos del catalogo
-        // - Pasarla a la view usando Model
+        // - Pasarla a la view usando viewBag
+        Catalogo catalogo = new Catalogo();
+        ViewBag.catalogo = catalogo.ObtenerProductos();
 
         return View();
     }
