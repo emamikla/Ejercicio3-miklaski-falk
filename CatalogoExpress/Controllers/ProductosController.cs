@@ -7,12 +7,8 @@ namespace CatalogoExpress.Controllers;
 public class ProductosController : Controller
 {
     public IActionResult Index(){
-        //TODO 1:
-        // - Crear un Catalogo
-        // - Obtener la lista de Productos del catalogo
-        // - Pasarla a la view usando viewBag
         Catalogo catalogo = new Catalogo();
-        ViewBag.catalogo = catalogo.ObtenerProductos();
+        ViewBag.Productos = catalogo.ObtenerProductos();
 
         return View();
     }
@@ -23,7 +19,16 @@ public class ProductosController : Controller
         // - Obtener el Producto por su nombre
         // - Si el nombre viene vacio/null o no existe -> View de no encontrado
         // - Si existe se muestra la view con su información
+        Catalogo catalogo = new Catalogo();
+        ViewBag.item = catalogo.ObtenerProductoPorNombre(nombre);
 
-        return View();
+        if(ViewBag.item == null)
+        {
+            return RedirectToAction("NoEncontrado");
+        }
+        else{
+            return View();
+        }
+
      }
 }

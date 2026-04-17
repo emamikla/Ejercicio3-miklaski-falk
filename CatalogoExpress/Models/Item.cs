@@ -1,6 +1,6 @@
 namespace CatalogoExpress;
 
-public class Producto
+public class Item
 {
     private string nombre;
     private string categoria;
@@ -8,7 +8,8 @@ public class Producto
     private double precio;
     private string descripcion;
 
-    public Producto(string nombre, string categoria, int anio, double precio, string descripcion){
+    public Item(string nombre, string categoria, int anio, double precio, string descripcion)
+    {
         this.nombre = nombre;
         this.categoria = categoria;
         this.anio = anio;

@@ -8,17 +8,13 @@
 </section>
 
 <section class="product-grid">
-    <p> TODO:
+    @*TODO:
        - Recorrer la lista de productos (ej: Model)!
        - Por cada uno mostrar su nombre y precio
        - En cada producto agregar un link al detalle (ej: @Url.Action("Detalle","Productos", new { nombre = producto.ObtenerNombre() }))
-       
-    
-    </p>
-    @{
-        forEach(Producto producto in ViewBag.Catalogo())
-        {
-            <a>@Url.Action("Detalle","Productos", new { nombre = producto.ObtenerNombre() }))
+       *@
+    @foreach(var item in ViewBag.Productos){
+            <a href="@Url.Action("Detalle","Productos", new { nombre = item.ObtenerNombre() }))">@item.ObtenerNombre()</a><br>
         }
-    }
+    
 </section>

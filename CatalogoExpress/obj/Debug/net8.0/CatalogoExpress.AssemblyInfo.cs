@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogoExpress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431f9f157eb8a925dc858de9e5e451c239ec8e72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d89ef938ec908c0192bceec1c3547e32a0ca733")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogoExpress")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogoExpress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
