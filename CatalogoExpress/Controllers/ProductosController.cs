@@ -20,13 +20,15 @@ public class ProductosController : Controller
         // - Si el nombre viene vacio/null o no existe -> View de no encontrado
         // - Si existe se muestra la view con su información
         Catalogo catalogo = new Catalogo();
-        ViewBag.item = catalogo.ObtenerProductoPorNombre(nombre);
+        Item item = catalogo.ObtenerProductoPorNombre(nombre);
 
-        if(String.IsNullOrWhiteSpace(nombre))
+
+        if(item == null)
         {
-            return RedirectToAction("NoEncontrado", "Productos");
+            return RedirectToAction("NoEncontrado");
         }
         else{
+            ViewBag.item = item;
             return View();
         }
 

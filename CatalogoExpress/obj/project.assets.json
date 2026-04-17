@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\49628417\\.nuget\\packages\\": {},
+    "C:\\Users\\emanuel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49628417\\Desktop\\Ejercicio3-miklaski-falk\\CatalogoExpress\\CatalogoExpress.csproj",
+      "projectUniqueName": "C:\\Users\\emanuel\\Escritorio\\tp3\\Ejercicio3-miklaski-falk\\CatalogoExpress\\CatalogoExpress.csproj",
       "projectName": "CatalogoExpress",
-      "projectPath": "C:\\Users\\49628417\\Desktop\\Ejercicio3-miklaski-falk\\CatalogoExpress\\CatalogoExpress.csproj",
-      "packagesPath": "C:\\Users\\49628417\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49628417\\Desktop\\Ejercicio3-miklaski-falk\\CatalogoExpress\\obj\\",
+      "projectPath": "C:\\Users\\emanuel\\Escritorio\\tp3\\Ejercicio3-miklaski-falk\\CatalogoExpress\\CatalogoExpress.csproj",
+      "packagesPath": "C:\\Users\\emanuel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emanuel\\Escritorio\\tp3\\Ejercicio3-miklaski-falk\\CatalogoExpress\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\49628417\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
