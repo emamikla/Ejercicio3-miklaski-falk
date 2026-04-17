@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nt6+hSYWLog=",
+  "dgSpecHash": "rQsaHJtELBw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\emanuel\\Escritorio\\tp3\\Ejercicio3-miklaski-falk\\CatalogoExpress\\CatalogoExpress.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\emanuel\\Escritorio\\ORT\\4TO AÑO\\PROGRAMACIÓN\\Ejercicio3\\Ejercicio3-miklaski-falk\\CatalogoExpress\\CatalogoExpress.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emanuel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\emanuel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\emanuel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\emanuel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.26\\microsoft.netcore.app.host.win-x64.8.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
