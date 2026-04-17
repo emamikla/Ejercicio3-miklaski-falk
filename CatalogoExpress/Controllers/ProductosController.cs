@@ -22,9 +22,9 @@ public class ProductosController : Controller
         Catalogo catalogo = new Catalogo();
         ViewBag.item = catalogo.ObtenerProductoPorNombre(nombre);
 
-        if(ViewBag.item == null)
+        if(String.IsNullOrWhiteSpace(nombre))
         {
-            return RedirectToAction("NoEncontrado");
+            return RedirectToAction("NoEncontrado", "Productos");
         }
         else{
             return View();

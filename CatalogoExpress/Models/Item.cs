@@ -17,23 +17,28 @@ public class Item
         this.descripcion = descripcion;
     }
 
-    public string ObtenerNombre(){
+    public string ObtenerNombre()
+    {
         return nombre;
     }
 
-    public string ObtenerCategoria(){
+    public string ObtenerCategoria()
+    {
         return categoria;
     }
 
-    public int ObtenerAnio(){
+    public int ObtenerAnio()
+    {
         return anio;
     }
 
-    public double ObtenerPrecio(){
+    public double ObtenerPrecio()
+    {
         return precio;
     }
 
-    public string ObtenerDescripcion(){
+    public string obtenerDescripcion()
+    {
         return descripcion;
     }
 

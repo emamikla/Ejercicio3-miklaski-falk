@@ -13,8 +13,9 @@
        - Por cada uno mostrar su nombre y precio
        - En cada producto agregar un link al detalle (ej: @Url.Action("Detalle","Productos", new { nombre = producto.ObtenerNombre() }))
        *@
-    @foreach(var item in ViewBag.Productos){
-            <a href="@Url.Action("Detalle","Productos", new { nombre = item.ObtenerNombre() }))">@item.ObtenerNombre()</a><br>
-        }
-    
+    @foreach(var item in ViewBag.Productos)
+    {
+        <h3>@item.ObtenerNombre()</h3>
+            <a href="@Url.Action("Detalle","Productos", new { nombre = item.ObtenerNombre() })">Ver detalle</a><br>
+    }
 </section>

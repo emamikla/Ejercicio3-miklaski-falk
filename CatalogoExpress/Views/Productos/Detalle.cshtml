@@ -8,6 +8,11 @@
    - Precio
    - Descripción
 *@
+<h2>Categoría: @ViewBag.item.ObtenerCategoria()</h2>
+<h3>Nombre del producto: @ViewBag.item.ObtenerNombre()</h3>
+<p>Descripción: @ViewBag.item.obtenerDescripcion()</p>
+<p>Año: @ViewBag.item.ObtenerAnio()</p>
+<h4>Precio: @ViewBag.ObtenerPrecio()</h4>
 
 <p>
     <a href='@Url.Action("Index","Productos")'>Volver al catálogo</a>
